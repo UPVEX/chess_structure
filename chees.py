@@ -6,7 +6,6 @@ from abc import ABCMeta, abstractmethod
 FILES = "abcdefgh"
 RANKS = "12345678"
 
-
 class Piece(metaclass=ABCMeta):
     def __init__(self, player, loc):
         if not isinstance(player, Player):
@@ -170,5 +169,6 @@ chess_board.move_piece("e2", "e4")
 chess_board.move_piece("c7", "c5")
 chess_board.move_piece("g1", "f3")
 chess_board.move_piece("d7", "d5")
+
 
 print(chess_board)
