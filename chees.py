@@ -93,7 +93,6 @@ class King(Piece):
         self.relative_moves = [(1, 0), (2, 0)]
 
 
-
 class ChessBoard:
     _instance = None
 
